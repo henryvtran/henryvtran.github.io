@@ -1,0 +1,33 @@
+/*
+Henry Tran
+background:#4b2e83;
+Last Updated: 11/21/2017
+*/
+body, html {
+	height: 100%;
+}
+h1,p { 
+	color:white;
+	margin:0;
+    margin-bottom:20px;
+    text-align:center;
+}
+
+h2, ul, iframe{
+	display:table; margin:0 auto
+}
+
+h2{
+	text-decoration: underline;
+}
+
+#banner{
+	position:absolute;
+	top:0;
+    left: 0;
+    right: 0;
+    height:120px;
+    background-size:100%;
+	background:#4b2e83;
+	z-index: -1;
+}
