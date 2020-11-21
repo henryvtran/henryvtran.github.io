@@ -1,0 +1,32 @@
+body {
+	font: 14pt cursive;
+	text-align: center;
+}
+
+#output p {
+    color: green;
+    font-size: 50pt;
+    margin: 0;
+}
+
+#puzzlearea {
+	position: relative;
+	width: 400px;
+	height: 400px;
+	margin: auto; 
+}
+
+.hover {
+    border-color: red;
+    color: red;
+    cursor:pointer;
+}
+
+.piece {
+	position: absolute;
+	width: 99px;
+	height: 99px;
+	font-size: 50pt;
+	border: 1px black solid;
+	background-image: url("background.jpg");
+}
